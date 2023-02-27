@@ -1,0 +1,8 @@
+version : '34'
+services : 
+  centos-httpd : 
+   build : 
+    context : './dockerfile-http'
+   image : 'centos-http:1.0'
+   ports :
+     - 80:80 
