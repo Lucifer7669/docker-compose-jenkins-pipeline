@@ -6,5 +6,5 @@ services :
    image : 'centos-http:1.0'
    ports :
      - 80:80 
-   volumes:
-     - '/srv/docker-compose-jenkins-pipeline/source-code:/var/www/html'
+  #  volumes:
+  #    - '/srv/docker-compose-jenkins-pipeline/source-code:/var/www/html'
